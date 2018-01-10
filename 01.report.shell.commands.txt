@@ -1,0 +1,54 @@
+hienmen@hienmen-Vostro-14-5480:~$ echo hello world
+hello world
+hienmen@hienmen-Vostro-14-5480:~$ date
+Wed Jan 10 10:08:15 ICT 2018
+hienmen@hienmen-Vostro-14-5480:~$ hostname
+hienmen-Vostro-14-5480
+hienmen@hienmen-Vostro-14-5480:~$ arch
+x86_64
+hienmen@hienmen-Vostro-14-5480:~$ uname -a
+Linux hienmen-Vostro-14-5480 4.10.0-28-generic #32~16.04.2-Ubuntu SMP Thu Jul 20 10:19:48 UTC 2017 x86_64 x86_64 x86_64 GNU/Linux
+hienmen@hienmen-Vostro-14-5480:~$ dmesg | tail -10
+[ 1060.477526] wlp7s0: associate with 78:8a:20:54:87:40 (try 1/3)
+[ 1060.483834] wlp7s0: RX AssocResp from 78:8a:20:54:87:40 (capab=0x31 status=0 aid=26)
+[ 1060.486969] wlp7s0: associated
+[ 1180.495048] wlp7s0: disconnect from AP 78:8a:20:54:87:40 for new auth to 7a:8a:20:55:87:40
+[ 1180.499097] wlp7s0: authenticate with 7a:8a:20:55:87:40
+[ 1180.502113] wlp7s0: send auth to 7a:8a:20:55:87:40 (try 1/3)
+[ 1180.505338] wlp7s0: authenticated
+[ 1180.512334] wlp7s0: associate with 7a:8a:20:55:87:40 (try 1/3)
+[ 1180.517492] wlp7s0: RX AssocResp from 7a:8a:20:55:87:40 (capab=0x411 status=0 aid=33)
+[ 1180.519140] wlp7s0: associated
+hienmen@hienmen-Vostro-14-5480:~$ uptime
+ 10:08:15 up 21 min,  2 users,  load average: 0.14, 0.27, 0.27
+hienmen@hienmen-Vostro-14-5480:~$ who am i
+hienmen  pts/4        Jan 10 10:05 (:0)
+hienmen@hienmen-Vostro-14-5480:~$ whoami
+hienmen
+hienmen@hienmen-Vostro-14-5480:~$ who
+hienmen  tty7         Jan 10 09:46 (:0)
+hienmen  pts/4        Jan 10 10:05 (:0)
+hienmen@hienmen-Vostro-14-5480:~$ id
+uid=1000(hienmen) gid=1000(hienmen) groups=1000(hienmen),4(adm),24(cdrom),27(sudo),30(dip),46(plugdev),113(lpadmin),128(sambashare)
+hienmen@hienmen-Vostro-14-5480:~$ last -10
+hienmen  pts/4        :0               Wed Jan 10 10:05    gone - no logout
+hienmen  pts/4        :0               Wed Jan 10 09:52 - 10:05  (00:12)
+hienmen  tty7         :0               Wed Jan 10 09:46    gone - no logout
+reboot   system boot  4.10.0-28-generi Wed Jan 10 09:46   still running
+hienmen  pts/6        :0               Wed Jan 10 09:37 - 09:37  (00:00)
+hienmen  pts/4        :0               Wed Jan 10 09:37 - 09:46  (00:08)
+hienmen  tty1                          Wed Jan 10 09:35 - down   (00:10)
+hienmen  tty7         :0               Wed Jan 10 16:30 - down   (-6:-44)
+reboot   system boot  4.10.0-28-generi Wed Jan 10 16:30 - 09:46  (-6:-44)
+hienmen  tty3                          Fri Jan  5 11:26 - down   (13:30)
+
+wtmp begins Fri Jan  5 04:50:49 2018
+hienmen@hienmen-Vostro-14-5480:~$ finger
+The program 'finger' is currently not installed. You can install it by typing:
+sudo apt install finger
+hienmen@hienmen-Vostro-14-5480:~$ w
+ 10:08:34 up 22 min,  2 users,  load average: 0.10, 0.25, 0.26
+USER     TTY      FROM             LOGIN@   IDLE   JCPU   PCPU WHAT
+hienmen  tty7     :0               09:46   22:01  17.61s  0.12s /sbin/upstart -
+hienmen  pts/4    :0               10:05    0.00s  0.04s  0.00s w
+hienmen@hienmen-Vostro-14-5480:~$ 
