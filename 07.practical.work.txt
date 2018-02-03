@@ -1,0 +1,8 @@
+hienmen@hienmen-Vostro-14-5480:~$ ps -aux | grep firefox
+
+hienmen   2004 13.9  7.4 2091300 293812 ?      Sl   23:10   1:56 /usr/lib/firefox/firefox
+
+hienmen   10517  0.0  0.0  22788   928 pts/4    S+   23:23   0:00 grep --color=auto firefox
+
+hienmen@hienmen-Vostro-14-5480:~$ ps -o nlwp 1956
+NLWP
